@@ -4,7 +4,8 @@ const router = express.Router();
 router.get('/', (req, res) => {
   res.render('post', {
     post: req.post,
-    comments: req.comments
+    comments: req.comments,
+    title: req.post.title
   });
 });
 

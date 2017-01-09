@@ -1,14 +1,21 @@
-<div>
-<h1>{{post.title}}</h1>
-<p>{{post.body}}</p>
 
-<ul>
+<div class="container">
+  <div class="col-md-12">
+  <div class="post">
+    <h1>{{post.title}}</h1>
+    <p>{{post.body}}</p>
+    <hr>
+    </div>
+  </div>
+
+  <div class="col-md-10">
+  <h4>Comments: </h4>
 {{#each comments}}
-  <ul>
-  <li>{{name}}</li>
-  <li>{{email}}</li>
-  <li>{{body}}</li>
-  </ul>
+  <div class="col-md-6">
+  <h5>{{name}} wrote:</h5>
+  <p>{{body}}</p>
+  <hr>
+  </div>
 {{/each}}
-</ul>
-<div>
+</div>
+</div>

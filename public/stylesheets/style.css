@@ -16,3 +16,9 @@ a, a:hover, a:active {
   text-decoration: none;
 
 }
+.post {
+  margin-bottom: 30px;
+}
+.blog-footer {
+  padding: 20px;
+}
