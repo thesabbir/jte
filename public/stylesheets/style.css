@@ -4,5 +4,15 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #1d0002;
+}
+a:hover {
+  color: rgba(20, 25, 36, 0.77);
+}
+.blog-header {
+  margin: 0px 0px 20px 0px;
+}
+a, a:hover, a:active {
+  text-decoration: none;
+
 }
