@@ -1,2 +1,6 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+ {{#each posts}}
+    <ul>
+      <li><a href="/posts/{{id}}">{{title}}</a></li>
+      <li>{{body}}</li>
+    </ul>
+  {{/each}}
