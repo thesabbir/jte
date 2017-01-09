@@ -1,6 +1,19 @@
+
+
+
+<header class="blog-header">
+<div class="container">
+<h1 class="text-center">Awesome random blog</h1>
+</div>
+</header>
+<div class="container">
  {{#each posts}}
-    <ul>
-      <li><a href="/posts/{{id}}">{{title}}</a></li>
-      <li>{{body}}</li>
-    </ul>
-  {{/each}}
+  <div class="col-md-12">
+    <h1><a href="/posts/{{id}}" class="post-title">{{title}}</a></h1>
+    <p>{{body}}</p>
+    <p><a href="/posts/{{id}}">Read more...</a></p>
+    <hr>
+</div>
+{{/each}}
+
+</div>
