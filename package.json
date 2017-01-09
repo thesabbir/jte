@@ -7,6 +7,7 @@
     "dev": "nodemon --exec npm start"
   },
   "dependencies": {
+    "axios": "^0.15.3",
     "body-parser": "~1.15.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.2.0",
